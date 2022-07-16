@@ -1,0 +1,61 @@
+#experiences{
+    padding: 80px 0;
+}
+
+#experiences h1{
+    color: #2b3940;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    position: relative;
+}
+#experiences h1::after{
+    border-bottom: 2px solid #4F54FF;
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 50px;
+}
+#experiences .experience{
+    padding: 25px;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    margin: 18px 5px;
+    height: 205px;
+
+}
+#experiences .experience:hover{
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+}
+#experiences .experience h4{
+    color: #212529;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+#experiences .experience span{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .5;
+    padding-top: 9px;
+    color: #212529;
+}
+#experiences .experience hr{
+    opacity: .1;
+}
+#experiences .experience p{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .5;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 40px;
+        
+}
