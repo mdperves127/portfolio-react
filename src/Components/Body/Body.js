@@ -3,6 +3,7 @@ import About from "./About/About";
 import Banner from "./Banner/Banner";
 import Experience from "./Experience/Experience";
 import Services from "./Services/Services";
+import Skill from "./Skill/Skill";
 
 
 
@@ -14,6 +15,7 @@ const Body = () => {
             <About />
             <Services />
             <Experience />
+            <Skill />
         </div>
     )
 
